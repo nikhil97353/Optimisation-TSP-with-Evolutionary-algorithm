@@ -37,29 +37,24 @@ This project implements an **Evolutionary Algorithm (EA)** to solve the **Travel
    pip install -r requirements.txt
 
 3. How to Run
-   XML Parsing and Graph Visualization: To visualize the graphs from the XML files, run the following script:
-
+  
    ```bash
-   python graph_visualization.py
-
-4. Running the Evolutionary Algorithm: To run the evolutionary algorithm with different population sizes and tournament sizes:
-
-   ```bash
-   python evolutionary_algorithm.py
+   python evolutionary_algorithm_tsp.py
 
 Parameter Tuning: Modify parameters such as population_size, tournament_size, and mutation_rate in the script to experiment with different configurations and visualize the performance.
 
-5. Experimenting with Parameters
+4. Experimenting with Parameters
 To identify the combination of parameters that produces the best results, you can:
 Define parameter combinations for population size, tournament size, crossover, and mutation.
 Run the algorithm for each combination and record the best solution found.
 Plot the convergence curve and analyze performance across iterations.
+
 Results
 Best Route: The algorithm outputs the best route for the TSP after each run.
 Best Fitness: Displays the total travel cost for the best solution.
 Convergence Curve: The plot shows the progression of the best fitness over the iterations.
 
-6. Example of Convergence Curve
+5. Example of Convergence Curve
    ```bas
    plt.plot(fitness_over_time)
    plt.title('Convergence Curve')
@@ -67,7 +62,7 @@ Convergence Curve: The plot shows the progression of the best fitness over the i
    plt.ylabel('Best Fitness (Total Travel Cost)')
    plt.show()
 
-7. License
+6. License
 
 This project is licensed under the MIT License.
 
