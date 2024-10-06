@@ -16,7 +16,7 @@ This project implements an **Evolutionary Algorithm (EA)** to solve the **Travel
 
 ## How It Works
 
-1. **Graph Parsing**: The algorithm reads the city and distance information from XML files (e.g., `burma14.xml`, `brazil58.xml`) and creates a graph.
+1. **Graph Parsing**: The algorithm reads the city and distance information from files
 2. **Evolutionary Algorithm**:
    - **Initialization**: Random initialization of population routes.
    - **Selection**: Tournament selection to choose the best routes.
