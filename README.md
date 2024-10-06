@@ -29,7 +29,7 @@ This project implements an **Evolutionary Algorithm (EA)** to solve the **Travel
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/TSP-Evolutionary-Algorithm.git
+   git clone https://github.com/nikhil97353/TSP-Evolutionary-Algorithm.git
    cd TSP-Evolutionary-Algorithm
 
 2. Install the necessary dependencies:
