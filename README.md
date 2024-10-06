@@ -67,7 +67,8 @@ Convergence Curve: The plot shows the progression of the best fitness over the i
    plt.ylabel('Best Fitness (Total Travel Cost)')
    plt.show()
 
-7. #License#
+7. License
+
 This project is licensed under the MIT License.
 
 
